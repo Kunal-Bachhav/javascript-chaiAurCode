@@ -1,0 +1,17 @@
+const cars = ["kunal", "Ghanasham", "Bachhav"];
+cars[0] = "Manoj";//kunal ki jagah manoj aa jayega
+console.log(cars);
+
+//conversion of array to string
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let makeString = fruits.toString();
+console.log(makeString);
+console.log(typeof makeString);
+console.log(fruits.sort());
+
+//looping array element....
+for (let i = 0; i < fruits.length; i++) {
+     console.log(`the fruit name is ${fruits[i]}`);
+  }
+
+
