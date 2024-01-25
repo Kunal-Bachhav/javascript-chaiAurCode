@@ -24,3 +24,13 @@ console.log(booleanIsLoggin)
 "kunal" => true
 
 */
+
+//---------------------------------------------------------------------------------------------------------------------
+
+// WHY STRING TO NUMBER CONVERSION IS CONFUSING
+
+console.log("1" + 2);//12
+console.log(2 + "1");//12
+console.log("1" + 2 + 2)//122
+console.log(2 + 2 + "1")//41
+
